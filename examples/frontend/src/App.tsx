@@ -77,7 +77,7 @@ function App() {
             <h2>Koleksi</h2>
             <p>
           {' '}
-          <a href="https://elinazahra.vercel.app/subscription-example/view/service/0x74553f285966af33f1308cf696e7cf9b1029a913d1c4730ab300fb99c30c73b7">here</a>.
+          <a href="https://elinazahra.vercel.app/subscription-example/view/service/0x74553f285966af33f1308cf696e7cf9b1029a913d1c4730ab300fb99c30c73b7"><Button size="3">here</Button></a>.
         </p>
           </div>
         </Flex>
@@ -87,7 +87,7 @@ function App() {
           <div style={{ textAlign: 'center' }}>
             <h2>Faucet</h2>
             <p>
-          <a href="https://faucet.sui.io/">faucet.sui.io</a>).
+          <a href="https://faucet.sui.io/"><Button size="3">faucet.sui.io</Button></a>).
         </p>
           </div>
         </Flex>
