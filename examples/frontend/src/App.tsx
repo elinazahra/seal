@@ -70,15 +70,29 @@ function App() {
           <ConnectButton />
         </Box>
       </Flex>
-      <Card style={{ marginBottom: '2rem' }}>
-        <p>
-          1. Koleksi{' '}
+      <Grid columns="2" gap="4">
+      <Card>
+        <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
+          <div style={{ textAlign: 'center' }}>
+            <h2>Koleksi</h2>
+            <p>
+          {' '}
           <a href="https://elinazahra.vercel.app/subscription-example/view/service/0x74553f285966af33f1308cf696e7cf9b1029a913d1c4730ab300fb99c30c73b7">here</a>.
         </p>
-        <p>
-          2. Faucet (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
-        </p>
+          </div>
+        </Flex>
       </Card>
+      <Card>
+        <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
+          <div style={{ textAlign: 'center' }}>
+            <h2>Faucet</h2>
+            <p>
+          <a href="https://faucet.sui.io/">faucet.sui.io</a>).
+        </p>
+          </div>
+        </Flex>
+      </Card>
+    </Grid>
       {currentAccount ? (
         <BrowserRouter>
           <Routes>
