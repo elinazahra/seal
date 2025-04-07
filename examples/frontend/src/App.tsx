@@ -78,7 +78,6 @@ function App() {
         <p>
           faucet (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
         </p>
-        
       </Card>
       {currentAccount ? (
         <BrowserRouter>
