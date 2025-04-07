@@ -76,7 +76,7 @@ function App() {
           <a href="https://elinazahra.vercel.app/subscription-example/view/service/0x74553f285966af33f1308cf696e7cf9b1029a913d1c4730ab300fb99c30c73b7">here</a>.
         </p>
         <p>
-          2. Fsucet (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
+          2. Faucet (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
         </p>
       </Card>
       {currentAccount ? (
