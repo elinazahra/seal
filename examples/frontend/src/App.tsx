@@ -64,7 +64,7 @@ function App() {
   return (
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
-        <h1 className="text-4xl font-bold m-4 mb-8">Seal Example Apps</h1>
+        <h1 className="text-4xl font-bold m-4 mb-8">Neangan Naon Maneh</h1>
         {/* <p>TODO: add seal logo</p> */}
         <Box>
           <ConnectButton />
@@ -72,21 +72,13 @@ function App() {
       </Flex>
       <Card style={{ marginBottom: '2rem' }}>
         <p>
-          1. Code is available{' '}
-          <a href="https://github.com/MystenLabs/seal/tree/main/examples">here</a>.
+          koleksi{' '}
+          <a https://elinazahra.vercel.app/subscription-example/view/service/0x74553f285966af33f1308cf696e7cf9b1029a913d1c4730ab300fb99c30c73b7">here</a>.
         </p>
         <p>
-          2. These examples are for Testnet only. Make sure you wallet is set to Testnet and has
-          some balance (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
+          faucet (can request from <a href="https://faucet.sui.io/">faucet.sui.io</a>).
         </p>
-        <p>
-          3. Blobs are only stored on Walrus Testnet for 1 epoch by default, older files cannot be
-          retrieved even if you have access.
-        </p>
-        <p>
-          4. Currently only image files are supported, and the UI is minimal, designed for demo
-          purposes only!
-        </p>
+        
       </Card>
       {currentAccount ? (
         <BrowserRouter>
